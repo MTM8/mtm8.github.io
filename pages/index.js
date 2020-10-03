@@ -5,11 +5,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>MTM8</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
+        <img class={styles.avatar} src={require('../assets/avatar.jpg')} />
+
         <h1 className={styles.title}>
           MTM8
         </h1>
