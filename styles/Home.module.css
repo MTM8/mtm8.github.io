@@ -35,6 +35,12 @@
   align-items: center;
 }
 
+.avatar {
+  height: 10em;
+  width: 10em;
+  border-radius: 100%;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
