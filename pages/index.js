@@ -6,11 +6,11 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>MTM8</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main className={styles.main}>
-        <img class={styles.avatar} src={require('../assets/avatar.jpg')} />
+        <img class={styles.avatar} src='/img/avatar.jpg' />
 
         <h1 className={styles.title}>
           MTM8
@@ -21,12 +21,12 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href='#' className={styles.card}>
             <h3>Project thing &rarr;</h3>
             <p>Something something here later</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href='#' className={styles.card}>
             <h3>Project thing &rarr;</h3>
             <p>Something something here later</p>
           </a>
